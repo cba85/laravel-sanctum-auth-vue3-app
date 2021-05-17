@@ -1,16 +1,66 @@
 {
-  "short_name": "Weather",
-  "name": "Weather: Do I need an umbrella?",
+  "short_name": "ToDon't",
+  "name": "To Don't List",
   "icons": [
     {
-      "src": "/images/icons-192.png",
+      "src": "/img/icons/icon_xxxhdpi.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/images/icons-512.png",
+      "src": "/img/icons/play_store.png",
       "type": "image/png",
       "sizes": "512x512"
+    },
+    {
+      "src": "/img/icons/iPhone5.png",
+      "type": "image/png",
+      "sizes": "57x57"
+    },
+    {
+      "src": "/img/icons/iPhone5@2x.png",
+      "type": "image/png",
+      "sizes": "114x114"
+    },
+    {
+      "src": "/img/icons/iPhone7@2x.png",
+      "type": "image/png",
+      "sizes": "120x120"
+    },
+    {
+      "src": "/img/icons/iPhone7@3x.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "/img/icons/apple-touch-icon-60x60.png",
+      "type": "image/png",
+      "sizes": "60x60"
+    },
+    {
+      "src": "/img/icons/apple-touch-icon-76x76.png",
+      "type": "image/png",
+      "sizes": "76x76"
+    },
+    {
+      "src": "/img/icons/apple-touch-icon-120x120.png",
+      "type": "image/png",
+      "sizes": "120x120"
+    },
+    {
+      "src": "/img/icons/apple-touch-icon-152x152.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "/img/icons/apple-touch-icon-167x167.png",
+      "type": "image/png",
+      "sizes": "167x167"
+    },
+    {
+      "src": "/img/icons/apple-touch-icon-180x180.png",
+      "type": "image/png",
+      "sizes": "180x180"
     }
   ],
   "start_url": "/?source=pwa",
@@ -18,33 +68,5 @@
   "display": "standalone",
   "scope": "/",
   "theme_color": "#3367D6",
-  "shortcuts": [
-    {
-      "name": "How's weather today?",
-      "short_name": "Today",
-      "description": "View weather information for today",
-      "url": "/today?source=pwa",
-      "icons": [{ "src": "/images/today.png", "sizes": "192x192" }]
-    },
-    {
-      "name": "How's weather tomorrow?",
-      "short_name": "Tomorrow",
-      "description": "View weather information for tomorrow",
-      "url": "/tomorrow?source=pwa",
-      "icons": [{ "src": "/images/tomorrow.png", "sizes": "192x192" }]
-    }
-  ],
-  "description": "Weather forecast information",
-  "screenshots": [
-    {
-      "src": "/images/screenshot1.png",
-      "type": "image/png",
-      "sizes": "540x720"
-    },
-    {
-      "src": "/images/screenshot2.jpg",
-      "type": "image/jpg",
-      "sizes": "540x720"
-    }
-  ]
+  "description": "To Don't list"
 }
